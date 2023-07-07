@@ -12,4 +12,4 @@ while True:
     text = randstaff.generate_random_joke()
     send = bot.send_message(chat_id=chanell, text=text)
     print(f'Сообщение отправлено: {send.text}')
-    time.sleep(1800)
+    time.sleep(3600)
